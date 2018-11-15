@@ -1,0 +1,30 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("hotel.jpg");
+}
+
+.blur{
+  background-image: url("hotel1.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+  /* Add the blur effect */
+  /* Full height */
+
+}

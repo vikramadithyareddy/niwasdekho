@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َAnimated Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body >
+
+<form class="box" action="index.html" method="post">
+    <h1 style="color:black">Login</h1>
+    <input style="color:black" type="text" onfocus="onFocus()" name="" placeholder="Username" required="">
+    <input style="color:black" type="password" name="" placeholder="Password" required="">
+    <input style="color:black" type="submit" name="" value="Login">
+    <br>
+    <div class="rounded-social-buttons">
+    <a class="social-button facebook" href="#"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <a class="social-button google" href="#"></a>
+    </div>
+    <br><hr>
+    <a href="#"><u>forgot password?</u></a><br><br>
+    <p style="color:grey;">Dont have an account?</p>
+    <a href="#" style="color:green"><span >Register</span></a>
+
+  </form>
+
+<script type="text/javascript">
+function onFocus() {
+  document.getElementById('blur').setAttribute('class', 'blury');
+}
+
+</script>
+
+
+  </body>
+</html>
